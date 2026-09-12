@@ -76,6 +76,7 @@ public/
 └── technologies.json
 ```
 
+
 ## Author
 
 Nibir Shafuan
