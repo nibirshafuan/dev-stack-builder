@@ -59,6 +59,7 @@ In this case, the TechnologySection component sends relevant information and met
 
 ## Application Structure
 
+```text
 src/
 ├── components/
 │   ├── Nav.tsx
@@ -71,10 +72,9 @@ src/
 ├── App.tsx
 └── index.css
 
-
 public/
 └── technologies.json
-
+```
 
 ## Author
 
