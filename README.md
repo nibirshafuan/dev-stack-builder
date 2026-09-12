@@ -76,6 +76,10 @@ public/
 └── technologies.json
 ```
 
+## Links
+
+- GitHub Repository Link: https://github.com/nibirshafuan/dev-stack-builder
+- Live Site Link: https://dev-stack-builder-psi.vercel.app/
 
 ## Author
 
