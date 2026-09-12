@@ -25,7 +25,7 @@ function YourStack({
 
         <h2 className="text-xl font-bold text-gray-900"> Your Stack </h2>
 
-        <p cl assName="mt-2 text-sm text-gray-400"> {selectedTechnologies.length === 0 ? "No Technology Selected" : `${selectedTechnologies.length} Technologies Selected`} </p>
+        <p className="mt-2 text-sm text-gray-400"> {selectedTechnologies.length === 0 ? "No Technology Selected" : `${selectedTechnologies.length} Technologies Selected`} </p>
 
             {selectedTechnologies.length === 0 ? (
 
