@@ -4,37 +4,39 @@ function Hero() {
     return (
         <section id="home" className="bg-white">
 
-        <div className="mx-auto max-w-7xl px-5 py-12 md:py-16">
+        <div className="mx-auto flex min-h-[660px] max-w-7xl items-center px-5 py-16">
 
-        <div className="grid items-center gap-8 lg:grid-cols-2">
+        <div className="grid w-full items-center gap-10 lg:grid-cols-2">
 
+        <div>
 
-    <div className="text-center lg:text-left">
+        <h1 className="text-5xl font-bold leading-tight text-[#111827]"> Build Your Ideal
+        <br />
+        <span className="brand-gradient-text"> Development Stack </span>
+        </h1>
 
-    <h1 className="text-4xl font-bold text-gray-900 md:text-5xl">Build Your Ideal <span className="block text-pink-500"> Development Stack </span></h1>
+        <p className="mt-6 max-w-xl text-lg leading-7 text-[#4B5563]">
+        Explore frontend, backend, database, and tooling options,
+        compare them side by side, and put together the stack that
+        fits your next project.</p>
 
-    <p className="mx-auto mt-5 max-w-lg text-gray-600 lg:mx-0">Explore frontend, backend, database, and tooling options, compare them side by side, and put together the stack that fits your next project.</p>
+        <div className="mt-8 flex gap-4">
 
+        <a href="#technologies" className="brand-gradient rounded-md px-6 py-3 text-sm font-semibold text-whiteshadow-sm transition-all hover:-translate-y-0.5 hover:shadow-md"> Explore Technologies </a>
 
-    <div className="mt-7 flex justify-center gap-3 lg:justify-start">
+        <a href="#about" className="rounded-md border border-[#D1D5DB] px-6 py-3 text-sm font-semibold text-[#374151] transition-colors hover:bg-gray-50"> Learn More </a>
 
-    <a href="#technologies" className="rounded-md bg-orange-500 px-5 py-3 text-sm font-medium text-white hover:bg-orange-600"> Explore Technologies </a>
+        </div> </div>
 
-    <a href="#about" className="rounded-md border border-gray-300 px-6 py-3 text-sm font-medium text-gray-600 hover:bg-gray-50"> Learn More </a>
+        <div className="flex justify-center lg:justify-end">
 
-    </div> </div>
+        <img src={banner} alt="Development Stack" className="w-full max-w-md"/>
 
+        </div> </div>
 
-    <div className="flex justify-center">
+        </div>
 
-    <img src={banner} alt="Development Stack" className="w-full max-w-md"/>
-
-    </div>
-
-    </div> </div>
-
-    </section>
-    
+        </section>
     );
 }
 

@@ -1,3 +1,5 @@
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import Nav from "./components/Nav";
 import Hero from "./components/Hero";
 import TechnologySection from "./components/TechnologySection";
@@ -17,6 +19,9 @@ function App() {
 
             <section id="contact" className="h-screen">
             </section>
+
+            <ToastContainer position="top-right" autoClose={2000} />
+
         </>
     );
 }
