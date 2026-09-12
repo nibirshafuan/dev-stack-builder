@@ -43,7 +43,7 @@ function Nav() {
 
         <span className="brand-gradient flex h-8 w-8 items-center justify-center rounded-lg text-sm font-bold text-white"> DS </span>
 
-        <span className="brand-gradient-text hidden text-xl font-bold sm:inline"> Dev Stack </span>
+        <span className="brand-gradient-text text-lg font-bold sm:text-xl"> Dev Stack </span>
 
         </a>
 
@@ -53,11 +53,11 @@ function Nav() {
 
         </div>
 
-        <div className="flex items-center gap-2 sm:gap-3">
+        <div className="flex items-center gap-1 sm:gap-3">
 
         <a href="#signin" className="brand-gradient-text text-xs font-semibold sm:text-sm"> Sign In </a>
 
-        <a href="#signup" className="brand-gradient rounded-full px-3 py-2 text-xs font-semibold text-white shadow-sm transition-all hover:shadow-md sm:px-5 sm:text-sm"> Sign Up </a>
+        <a href="#signup" className="brand-gradient rounded-full px-2.5 py-2 text-xs font-semibold text-white shadow-sm transition-all hover:shadow-md sm:px-5 sm:text-sm"> Sign Up </a>
 
         </div>
 
