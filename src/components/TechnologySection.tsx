@@ -32,37 +32,17 @@ function TechnologySection() {
 
         <div className="text-center">
 
-        <h2 className="text-3xl font-bold text-gray-900">
+        <h2 className="text-3xl font-bold text-gray-900"> Explore the <span className="text-pink-500">Technologies</span></h2>
 
-        Explore the <span className="text-pink-500">Technologies</span>
+        <p className="mx-auto mt-3 max-w-2xl text-sm text-gray-500"> Discover the technologies and tools you can use to build your next project.</p>
 
-        </h2>
+        </div> {loading ? (
 
-        <p className="mx-auto mt-3 max-w-2xl text-sm text-gray-500">
+        <p className="mt-10 text-center text-gray-500"> Loading technologies...</p> ) : (
 
-        Discover the technologies and tools you can use to build your next project.
+        <div className="mt-10 grid gap-5 md:grid-cols-2 lg:grid-cols-3">{technologies.map((technology) => (
 
-        </p>
-
-        </div>
-
-        {loading ? (
-
-        <p className="mt-10 text-center text-gray-500">
-
-        Loading technologies...
-
-        </p>
-
-        ) : (
-
-        <div className="mt-10 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
-
-        {technologies.map((technology) => (
-
-        <TechnologyCard key={technology.id} technology={technology} />
-
-        ))}
+        <TechnologyCard key={technology.id} technology={technology} /> ))}
 
         </div>
 

@@ -41,17 +41,11 @@ function TechnologyCard({ technology }: TechnologyCardProps) {
 
         <span className="text-gray-600">
 
-        <span className="text-yellow-500">★</span> {technology.rating}
-
-        </span>
+        <span className="text-yellow-500">★</span> {technology.rating}</span>
 
         </div>
 
-        <button className="mt-4 w-full rounded-md bg-gray-900 py-2 text-sm text-white hover:bg-gray-800">
-
-        Add to Stack
-
-        </button>
+        <button className="mt-4 w-full rounded-md bg-gray-900 py-2 text-sm text-white hover:bg-gray-800">Add to Stack</button>
 
         </div>
     );
